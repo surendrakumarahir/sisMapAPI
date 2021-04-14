@@ -1,0 +1,19 @@
+﻿{
+    "database": {
+        "host": "sismep-ins-prod.c2hdydz8avug.ap-southeast-1.rds.amazonaws.com",
+        "port": 33336,
+        "user": "root",
+        "password": "4q6V9g5v5V2f8n9Z3o5r",
+        "database": "sismep"
+    },
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "emailFrom": "info@node-mysql-signup-verification-api.com",
+    "smtpOptions": {
+        "host": "[ENTER YOUR OWN SMTP OPTIONS OR CREATE FREE TEST ACCOUNT IN ONE CLICK AT https://ethereal.email/]",
+        "port": 587,
+        "auth": {
+            "user": "",
+            "pass": ""
+        }
+    }
+}
